@@ -21,8 +21,7 @@ if (reponse1 == 'Oui'):
     longueur = float(input())
     print('--- SAISIR LARGUEUR ---')
     largueur = float(input())
-    print('--- SAISIR ANGLE DEGRES ---')
-    angle = float(input())
+
     angle_radian = math.radians(angle)
     hypothenuse = largueur/math.cos(angle_radian)
     surface_couverture_deduire = hypothenuse * longueur
