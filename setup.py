@@ -7,6 +7,6 @@ from cx_Freeze import setup, Executable
 setup(
     name = "couverture",
     version = "1",
-    description = "Votre programme",
+    description = "Calcule de la surface d une toiture",
     executables = [Executable("couverture.py")],
 )
